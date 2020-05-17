@@ -25,11 +25,11 @@ import java.util.Date;
 public class AppleLoginUtil {
     private static String APPLE_AUTH_URL = "https://appleid.apple.com/auth/token";
 
-    private static String KEY_ID = "GV6A62V44W";
-    private static String TEAM_ID = "F3U6Z5L2EJ";
-    private static String CLIENT_ID = "com.giddh.appsignin";
+    private static String KEY_ID = "**********";
+    private static String TEAM_ID = "**********";
+    private static String CLIENT_ID = "com.example.yourapp";
 
-    private static String authKeyPath = "src/main/resources/AuthKey_GV6A62V44W.p8";
+    private static String authKeyPath = "path to authkey file (.p8 file)";
 
     private static PrivateKey pKey;
 
